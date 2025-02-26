@@ -51,5 +51,20 @@ form #output input {
     background-color:black;
 }
 body{
-    background-color:turquoise;
+    background-color:mediumspringgreen;
+}
+.use{
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+    color:white;
+    }
+.use:hover{
+    background-color: darkred;
+}
+.hover-text{
+    display:none;
+}
+.use:hover .hover-text{
+    display:inline;
 }
